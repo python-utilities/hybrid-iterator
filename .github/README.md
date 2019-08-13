@@ -46,7 +46,7 @@ Python 2/3 iterator cross-bred with a Dictionary
 ```Bash
 _module_name='hybrid-iterator'
 _module_https_url="https://github.com/python-utilities/${_module_name}.git"
-_module_relative_path="lib/modules/${_module_name}"
+_module_relative_path="lib/modules/${_module_name//-/_}"
 ```
 
 
