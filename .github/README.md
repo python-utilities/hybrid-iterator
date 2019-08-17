@@ -98,7 +98,7 @@ Update/upgrade submodules via
 #!/usr/bin/env python
 
 
-from lib.hybrid-iterator import Hybrid_Iterator
+from lib.modules.hybrid_iterator import Hybrid_Iterator
 
 
 class Priority_Buffer(Hybrid_Iterator):
@@ -272,7 +272,7 @@ if __name__ == '__main__':
 
 ```Bash
 git add .gitmodules
-git add lib/modules/hybrid-iterator
+git add lib/modules/hybrid_iterator
 
 
 ## Add any changed files too
@@ -290,7 +290,7 @@ git commit -F- <<'EOF'
 
 - `README.md`, updates installation and updating guidance
 
-- `lib/modules/hybrid-iterator`, builds list of pages for a named collection
+- `lib/modules/hybrid_iterator`, builds list of pages for a named collection
 EOF
 
 
